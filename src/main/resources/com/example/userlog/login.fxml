@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.userlog.LoginController">
+   <left>
+      <AnchorPane prefHeight="407.0" prefWidth="228.0" style="-fx-background-color: #b3bdb6;" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" layoutX="71.0" layoutY="63.0" prefHeight="49.0" prefWidth="91.0" text="User Login">
+               <font>
+                  <Font name="Calibri Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="43.0" layoutY="135.0" prefHeight="18.0" prefWidth="140.0" text="Eoghan Feighery">
+               <font>
+                  <Font name="Calibri Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="43.0" layoutY="200.0" prefHeight="18.0" prefWidth="140.0" text="x19413886">
+               <font>
+                  <Font name="Calibri Bold Italic" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="400.0" prefWidth="370.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="117.0" layoutY="46.0" prefHeight="40.0" prefWidth="98.0" text="Log in here">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="100.0" prefHeight="24.0" prefWidth="62.0" text="Username" />
+            <Label layoutX="23.0" layoutY="150.0" prefHeight="24.0" prefWidth="62.0" text="Password" />
+            <TextField fx:id="usernameTF" layoutX="92.0" layoutY="100.0" prefHeight="26.0" prefWidth="214.0" />
+            <PasswordField fx:id="passwordTF" layoutX="92.0" layoutY="150.0" prefHeight="26.0" prefWidth="214.0" />
+            <Button fx:id="loginButton" layoutX="72.0" layoutY="233.0" mnemonicParsing="false" onAction="#loginButtonOnAction" prefHeight="42.0" prefWidth="187.0" style="-fx-background-color: #000000;" text="LOG IN" textFill="#e5ff00">
+               <font>
+                  <Font name="Calibri" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="cancelButton" layoutX="74.0" layoutY="291.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" prefHeight="42.0" prefWidth="187.0" style="-fx-background-color: #000000;" text="EXIT" textFill="#e5ff00">
+               <font>
+                  <Font name="Calibri" size="24.0" />
+               </font>
+            </Button>
+            <Label fx:id="loginMsg" alignment="CENTER" layoutX="23.0" layoutY="188.0" prefHeight="24.0" prefWidth="287.0" textFill="#8e0909" />
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>
