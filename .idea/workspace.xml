@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d20a4f2-704c-4eae-95a3-7da97c47dc05" name="Changes" comment="Adding 2nd branch">
+    <list default="true" id="3d20a4f2-704c-4eae-95a3-7da97c47dc05" name="Changes" comment="Added comments to Branch 2 (Alternate)">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_03_2023_18_04__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_03_2023_18_04__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/userlog/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/userlog/DatabaseConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/userlog/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/userlog/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/userlog/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/userlog/MainApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/userlog/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/userlog/RegistrationController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Alternate" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -95,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678097320080</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added comments to Branch 2 (Alternate)">
+      <created>1679266252725</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679266252725</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +131,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setting up insecure version" />
     <MESSAGE value="Adding MySQL jar connector" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding MySQL jar connector" />
+    <MESSAGE value="Added comments to Branch 2 (Alternate)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added comments to Branch 2 (Alternate)" />
   </component>
 </project>
