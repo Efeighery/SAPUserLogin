@@ -14,6 +14,20 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
+/*
+ *  Class name: LoginController.java
+ *
+ *  Date e.g. 14/02/2023
+ *
+ * @author Eoghan Feighery, x19413886
+ *
+ */
+
+/*
+ *
+ * @reference:  https://www.youtube.com/watch?v=DH3dWzmkT5Y/LoginController.java
+ *
+ */
 
 public class LoginController {
 

@@ -14,6 +14,22 @@ import java.net.URL;
 import java.sql.Connection;
 import java.sql.Statement;
 
+/*
+ *  Class name: RegistrationController.java
+ *
+ *  Date e.g. 14/02/2023
+ *
+ * @author Eoghan Feighery, x19413886
+ *
+ */
+
+/*
+ *
+ * @reference:  https://www.youtube.com/watch?v=pf7-zMCQlIc/RegistrationController.java
+ *
+ */
+
+
 public class RegistrationController {
 
     // All FXML variables are called through here
